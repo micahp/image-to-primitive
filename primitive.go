@@ -96,7 +96,7 @@ func H(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		if nInt > 32 {
+		if nInt > 64 {
 			w.Header().Set("Content-Type", "image/jpeg")
 			w.Header().Set("Content-Length", strconv.Itoa(len([]byte(maxShape))))
 			w.Write([]byte(maxShape))
