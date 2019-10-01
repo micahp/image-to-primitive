@@ -1,6 +1,6 @@
 {
   "name": "image-to-primitive",
-  "alias": ["image-to-primitive.now.sh"],
+  "alias": ["image-to-primitive-2.now.sh"],
   "version": 2,
   "builds": [
     {
